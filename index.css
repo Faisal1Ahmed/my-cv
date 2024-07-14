@@ -1,0 +1,68 @@
+img{
+  height: 100px;width: 100px;border-radius: 50%;float: left;
+}
+.myself{
+  border: solid rgb(171, 206, 90) 6px;width:fit-content ;float: left;background-color: rgb(200, 216, 230);
+  color:#db40e0;
+ }
+.nofloat{
+float: none;
+}
+.info{
+  float: right;
+  border: 4px solid rgb(47, 255, 213);padding: 7px;
+}
+body{
+  background-color: antiquewhite;
+}
+.info a:hover{
+  text-decoration: underline;
+  color:tomato;
+}
+.info a {
+  text-decoration: none;
+  color:#db40e0 ;
+  font-weight: bold;
+}
+.cleardiv{
+  clear: both;
+}
+hr{
+  border: solid black 4px;
+  width: 100%;
+}/*personal section start*/
+.leftdiv{
+  width: 30%;
+  float: left;
+}
+.rightdiv{
+  width: 70%;
+  float: left;
+}
+.common-hr{
+  border: solid black 1px;
+  border-bottom:none;
+  width:100%;
+  margin-top: auto;padding-bottom: 5px;
+}
+.eduleft{
+width: 35%;
+float: left;
+}
+.eduright{
+  width: 35%;
+  float: right;
+}
+footer{
+  background-color:black;
+  width: 100%;
+  height: 200px;text-align: center;padding: 10px;
+}
+footer div a{
+  text-decoration: none;
+  font-weight:bolder;color: aquamarine;
+  margin:20px;
+}
+footer div p{
+  color: rgb(250, 246, 246);
+}
